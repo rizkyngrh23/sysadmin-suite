@@ -1,0 +1,56 @@
+{
+  "name": "terminal-gui",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch server.ts",
+    "build": "bun build src/index.tsx --target bun --outdir ./dist",
+    "start": "NODE_ENV=production bun dist/index.js",
+    "test": "bun test",
+    "react-start": "bun run react-scripts start",
+    "react-build": "bun run react-scripts build",
+    "react-test": "bun run react-scripts test",
+    "react-eject": "bun run react-scripts eject",
+    "server": "ts-node server.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@monaco-editor/react": "^4.6.0",
+    "@mui/icons-material": "^6.4.0",
+    "@mui/material": "^5.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "elysia": "^1.1.25",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "undici": "^4.10.0",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "ts-node": "^10.4.0"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "type": "module"
+}
