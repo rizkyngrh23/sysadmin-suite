@@ -4,6 +4,9 @@ SysAdmin Suite is a comprehensive web application designed to provide a suite of
 
 This project uses [Elysia.js](https://elysia.js.org/) as the backend framework.
 
+
+![screenshot_20012025_152450](https://github.com/user-attachments/assets/f8d9b568-e839-47e7-8c87-31682aed766f)
+
 ## Features
 
 ### Core Features
@@ -95,7 +98,3 @@ We welcome contributions from the community! If you'd like to contribute, please
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out to us at [your-email@example.com].
